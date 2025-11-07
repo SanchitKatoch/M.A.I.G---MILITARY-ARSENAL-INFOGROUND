@@ -1,0 +1,45 @@
+  body {
+      background-image: url(../img/deployed.gif);
+      background-repeat:no-repeat;
+      background-position:center;
+      background-size:cover;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 80px;
+    
+  }
+  #signup {
+      background:"";
+      border:black solid 2px;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label, input, button {
+      display: block;
+      margin: 10px 0;
+  }
+
+label {
+    color: white;  
+    display: block;
+    margin: 10px 0 5px;
+}
+
+
+input {
+    background-color:  rgba(211, 211, 211, 0.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    color: white;
+}
+
+
+button:hover {
+    background-color: grey;
+}
