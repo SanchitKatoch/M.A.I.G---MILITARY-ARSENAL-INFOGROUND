@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.A.I.G - Military Arsenal Infoground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="access-granted">ACCESS GRANTED...</div>
+
+  <header>
+    <div id="logo">
+      <img src="imag2.png" height="100" alt="M.A.I.G Logo">
+    </div>
+    <div id="heading">
+      <h1>Military . Arsenal . Infoground</h1>
+      <h2 style="text-align: center;">Explore India's Defence Power</h2>
+    </div>
+    <div id="logout">
+      <span>Welcome, User</span>
+      <button id="Logbutn">Logout</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="listbox">
+      <div class="item" onclick="toggleContent(0)">▶ Overview</div>
+      <div class="content">
+        M.A.I.G is a digital archive designed to provide detailed insight into modern and historical military weapon systems, enhancing research and knowledge about global defense technologies.
+      </div>
+
+      <div class="item" onclick="toggleContent(1)">▶ Purpose</div>
+      <div class="content">
+        The goal of this platform is to compile, visualize, and organize data about weapons, vehicles, and defense systems for academic and analytical use.
+      </div>
+
+      <div class="item" onclick="toggleContent(2)">▶ Weapon Categories</div>
+      <div class="content">
+        1. Small Arms (Pistols, Rifles, SMGs)<br>
+        2. Artillery Systems<br>
+        3. Armored Vehicles<br>
+        4. Naval Equipment<br>
+        5. Airborne Weapons<br>
+        6. Missile and Rocket Systems
+      </div>
+
+      <div class="item" onclick="toggleContent(3)">▶ Technology Stack</div>
+      <div class="content">
+        • HTML, CSS, and JavaScript for front-end<br>
+        • Future upgrade: React.js + Node.js<br>
+        • Optional backend expansion using MongoDB for weapon data indexing.
+      </div>
+
+      <div class="item" onclick="toggleContent(4)">▶ Future Upgrades</div>
+      <div class="content">
+        • 3D visualization of weapons<br>
+        • Real-time comparison tool<br>
+        • Secure user login for researchers<br>
+        • Integrated defense news feed and analytics.
+      </div>
+
+      <div class="item" onclick="toggleContent(5)">▶ Developer Note</div>
+      <div class="content">
+        Created as a mini project by <strong>Sanchit Katoch</strong>.<br>
+        Vision: To blend technology with defense intelligence and promote tactical awareness among learners.
+      </div>
+    </div>
+  </div>
+
+  <footer>© 2025 Military Arsenal Infoground | All Rights Reserved</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
